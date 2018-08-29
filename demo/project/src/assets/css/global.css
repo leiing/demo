@@ -1,0 +1,42 @@
+body{
+  font-size: 14px;
+  font-family:"Microsoft Yahei",sans-serif;
+  color:#333;
+  background-color: white;
+}
+ul,ol{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration:none;
+  color:#333;
+}
+.tmpl{
+  padding-bottom: 50px;
+}
+/*缩略图*/
+.photo{
+  width: 100%;
+  /*display: flex;*/
+  /*overflow: hidden;*/
+}
+.photo>div{
+  width: 100%;
+}
+.photo .my-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo .my-gallery figure {
+  float: left;
+  width: 30%;
+  margin: 3px;
+  box-shadow: 0 0 10px #ccc;
+}
+.photo .my-gallery figure img{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
